@@ -24,6 +24,8 @@ dE2 = function(t, E, parms) {
   list((1-(E/Emax[2]))*(a[2]*e^(-b[2]*(E/Emax[2])) + c[2]*(E/Emax[2])))
 }
 
+testing changes
+
 #yini is just there for as part of the ode package because I need to specify the initial values. In this case yini = 0 means d = 0 when E = 0.
 yini = 0
 #I specified here the range of dose I am interested in. The number can be changed very easily here. For example if we only wanted to look at the graph at that beginning hump we could have just went seq(0, 500) and we would have gotten a zoomed in part of that graph.
